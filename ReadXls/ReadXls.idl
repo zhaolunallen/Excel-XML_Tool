@@ -1,0 +1,29 @@
+// ReadXls.idl : ReadXls.exe 的类型库源
+
+// 此文件将由 MIDL 编译器处理以产生
+// 类型库(ReadXls.tlb)。
+
+[ uuid(EF4254C6-1E45-4460-B1CA-DE3BA74CC0B7), version(1.0) ]
+library ReadXls
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  CReadXlsDoc 的主调度接口
+	
+	[ uuid(6B3EFF69-A4AD-4306-BD9C-D7863A4202B2) ]
+	dispinterface IReadXls
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  CReadXlsDoc 的类信息
+	
+	[ uuid(174D6E32-4900-420B-9006-1C6D299D4ABC) ]
+	coclass ReadXls
+	{
+		[default] dispinterface IReadXls;
+	};
+};

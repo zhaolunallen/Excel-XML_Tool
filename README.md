@@ -1,11 +1,9 @@
 # Excel-XML_Tool
 A tool to achieve xml and xlsx file interchange.
-
-# ReadXls
 Excel-Xml互转工具： 
 该软件在Excel转XML文件的软件基础上加入了XML转Excel的功能，并对原功能进行优化，实现总表模式和分表模式XML与Excel互转的功能。
 
-## 注意事项：  
+### 注意事项：  
 1.XML文件中，Item和list之间请严格保持list名=item名+“List” ；   
 如：   
      ` <ItemExplodeList>  `  
